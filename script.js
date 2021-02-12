@@ -18,7 +18,7 @@ return false;
 }
 }
 
-//Function to validate phone number on FAQs page
+//Function to validate phone number on FAQS
 
 function validatePhone(){
     var phoneNumber = document.getElementById('phone-number').value;

@@ -10,10 +10,18 @@
     <script src="script.js"></script>
 </head>
 
-<!--Internal stylesheet-->
+<!--Internal stylesheet for form on page-->
 <style>
-    
+    form {
+        background-color: lavender;
+        padding: 25px;
+        width: 25%;
+        text-align: center;
+        margin: auto;
+        border-radius: 25px;
+    }
 
+   
 </style>
 
 <body>
@@ -102,8 +110,10 @@
     <!--Question Submission Form-->
 
     <form action="" onsubmit="validatePhone()">
-        <input type="text"id="phone-number" placeholder="phone number"/> <br>
-        <input type="text" id="question" placeholder="Enter  question here" /><br>
+        <input type="text"id="phone-number" placeholder="phone number"/> 
+        <br><br>
+        <input type="text" id="question" placeholder="Enter question here"/>
+        <br><br>
         <input type="submit"/>
       </form>
       
