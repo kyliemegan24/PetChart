@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetChart FAQs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<!--Internal stylesheet-->
+<style>
+    
+
+</style>
+
+<body>
+    <!--Bootstrap Navbar Code--> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PetChart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="FAQs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signUp.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div>
+        <h2 style="text-align: center;">
+            FAQs
+        </h2>
+        <br>
+        <p style="text-align: center;">
+            Don't see your question answered? Submit your own question at the bottom of the page!
+        </p>
+    </div>
+    <br><br>
+
+    <!--Table of Questions and Answers-->
+
+    <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Question</th>
+            <th scope="col">Answer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+                <i style="color: black" class="fa fa-paw" aria-hidden="true"></i>
+            </th>
+            <td colspan="1">
+                What is the purpose of PetChart?
+            </td>
+            <td colspan="2">
+                answer
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <i style="color: black" class="fa fa-paw" aria-hidden="true"></i>
+            </th>
+            <td colspan="1">Is my information safe?</td>
+            <td colspan="2">answer</td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <i style="color: black" class="fa fa-paw" aria-hidden="true"></i>
+            </th>
+            <td colspan="1">How do I share my pet's profile</td>
+            <td colspan="2">answer</td>
+          </tr>
+          <tr>
+            <th scope="row">
+                <i style="color: black" class="fa fa-paw" aria-hidden="true"></i>
+            </th>
+            <td colspan="1">Is it easy to update my pet's information as it changes?</td>
+            <td colspan="2">answer</td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <!--Question Submission Form-->
+
+    <form action="" onsubmit="validatePhone()">
+        <input type="text"id="phone-number" placeholder="phone number"/> <br>
+        <input type="text" id="question" placeholder="Enter  question here" /><br>
+        <input type="submit"/>
+      </form>
+      
+
+      <br><br><br>
+     <!--Bootstrap sticky footer-->
+
+     <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted" style="margin:auto; display:table">PetChart 2021</span>
+        </div>
+    </footer>
+
+</body>
+</html>
