@@ -1,9 +1,13 @@
+//Array and function to display random pet joke on homepage
+
 var jokes = ["What is a cat's favorite color?  PURR-ple!", "What kind of kitten works for the Red Cross? A first-aid Kit!", "What's worse than raining cats and dogs? Hailing taxi cabs!", "Why are cats good at video games? Because they have nine lives!", "What did the dog say when he sat on sandpaper? Ruff!", 
             "What dog keeps the best time? A watch dog!", "Why don't dogs make good dancers? Because they have two left feet!"];
 function displayJoke() {
-    for (i = 0; i < jokes.length; i ++) {
+    for (i = 0; i < jokes.length; i++) {
         alert(jokes[i]);
+        
     }
+    
 };
 
 
