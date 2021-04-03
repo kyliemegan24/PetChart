@@ -4,7 +4,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetChart</title>
+    <title>Humane Society Employees</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -36,13 +36,13 @@
             <a class="nav-link" href="index.html">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Cats.html">Cats<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Cats.html">Cats</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Dogs.html">Dogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Employees.html">Employees</a>
+          <a class="nav-link" href="Employees.html">Employees<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Location.html">Locations</a>
@@ -55,12 +55,12 @@
   </nav>
     <br>
   
-    <!--Form for finding cat by id-->
+    <!--Form for employee by id-->
     <div class="mail">
         <form>
             <div class="form-group">
-            <h1>Find Cat by Id</h1>
-            <label for="exampleFormControlInput1">Enter Cat Id</label>
+            <h1>Find Employee by Id</h1>
+            <label for="exampleFormControlInput1">Enter Employee Id</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -71,62 +71,59 @@
     <br>
     
 
-     <!--Form for finding cat by id-->
+     <!--Form for adding a new employee -->
      <div class="mail">
         <form>
             
             <div class="form-group">
-             <h1>Add New Cat to Records</h1>
+             <h1>Add New Employee to Records</h1>
               <label for="exampleFormControlInput1">Enter a New Id</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
             </div>
               
             <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hila">
+              <label for="exampleFormControlInput1">Enter Employee's First Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Abby">
             </div>
               
             <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Age (in years)</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3">
+              <label for="exampleFormControlInput1">Enter Employee Last Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Baka">
             </div>
               
             <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Breed</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="orange tabby">
+              <label for="exampleFormControlInput1">Enter Employee Salary (USD)</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="100000">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Enter Employee Position</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adoption Assitant">
             </div>
               
-              <div class="form-group">
-                <label for="inputState">Is this cat up to date on shots? (1 for YES, 2 for NO)</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>1</option>
-                  <option>2</option>
-                </select>
-              </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Enter Location Id</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1">
+            </div>
               
-              
-                <div class="form-group">
-                  <label for="inputState">Enter Cat Gender (1 for MALE, 2 for FEMALE)</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>1</option>
-                    <option>2</option>
-                  </select>
-                  <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Enter Employee Password</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="EmployeePassword1!">
+                    
+                <br>
                 <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-                
+            </div>
+           
         </form>
         </div>
       <br>
 
-    <!-- form to delete cat-->
+    <!-- form to delete employee-->
     <div class="mail">
       <form>
           <div class="form-group">
-          <h1>Delete Cat by Id</h1>
-          <label for="exampleFormControlInput1">Enter Cat Id</label>
+          <h1>Delete Employee by Id</h1>
+          <label for="exampleFormControlInput1">Enter Employee Id</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
           <br>
           <button type="submit" class="btn btn-primary">Submit</button>
@@ -135,53 +132,50 @@
   </div>
   <br>
 
-  <!-- Form to update cat -->
+  <!-- Form to update employee -->
 
   <div class="mail">
     <form>
-        
+            
         <div class="form-group">
-         <h1>Update Existing Cat</h1>
+         <h1>Update Employee Information</h1>
           <label for="exampleFormControlInput1">Enter a New Id</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
         </div>
           
         <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hila">
+          <label for="exampleFormControlInput1">Enter Employee's First Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Abby">
         </div>
           
         <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Age (in years)</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3">
+          <label for="exampleFormControlInput1">Enter Employee Last Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Baka">
         </div>
           
         <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Breed</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="orange tabby">
+          <label for="exampleFormControlInput1">Enter Employee Salary (USD)</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="100000">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter Employee Position</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adoption Assitant">
         </div>
           
-          <div class="form-group">
-            <label for="inputState">Is this cat up to date on shots? (1 for YES, 2 for NO)</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter Location Id</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1">
+        </div>
           
-          
-            <div class="form-group">
-              <label for="inputState">Enter Cat Gender (1 for MALE, 2 for FEMALE)</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>1</option>
-                <option>2</option>
-              </select>
-              <br>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter Employee Password</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="EmployeePassword1!">
+                
+            <br>
             <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-            
+        </div>
+       
     </form>
     </div>
 

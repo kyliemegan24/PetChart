@@ -4,7 +4,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetChart</title>
+    <title>Humane Society Employees</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
@@ -36,7 +36,7 @@
             <a class="nav-link" href="index.html">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Cats.html">Cats<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="Cats.html">Cats</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Dogs.html">Dogs</a>
@@ -45,7 +45,7 @@
           <a class="nav-link" href="Employees.html">Employees</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Location.html">Locations</a>
+          <a class="nav-link" href="Location.html">Locations<span class="sr-only">(current)</span></a>
         </li>
           <li class="nav-item">
             <a class="nav-link" href="LogIn.html">Log In</a>
@@ -55,12 +55,12 @@
   </nav>
     <br>
   
-    <!--Form for finding cat by id-->
+    <!--Form for find location by id-->
     <div class="mail">
         <form>
             <div class="form-group">
-            <h1>Find Cat by Id</h1>
-            <label for="exampleFormControlInput1">Enter Cat Id</label>
+            <h1>Find Location by Id</h1>
+            <label for="exampleFormControlInput1">Enter Location Id</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -71,62 +71,37 @@
     <br>
     
 
-     <!--Form for finding cat by id-->
+     <!--Form for adding a new location -->
      <div class="mail">
         <form>
             
             <div class="form-group">
-             <h1>Add New Cat to Records</h1>
-              <label for="exampleFormControlInput1">Enter a New Id</label>
+             <h1>Add New Location</h1>
+              <label for="exampleFormControlInput1">Enter a New Location Id</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
             </div>
               
             <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Name</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hila">
+              <label for="exampleFormControlInput1">Enter Location Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Highland Park Humane Society">
             </div>
               
             <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Age (in years)</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3">
+              <label for="exampleFormControlInput1">Enter Location Address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1111 Marc Street, Saint Paul, MN 55105">
+              <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-              
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Enter Cat Breed</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="orange tabby">
-            </div>
-              
-              <div class="form-group">
-                <label for="inputState">Is this cat up to date on shots? (1 for YES, 2 for NO)</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>1</option>
-                  <option>2</option>
-                </select>
-              </div>
-              
-              
-                <div class="form-group">
-                  <label for="inputState">Enter Cat Gender (1 for MALE, 2 for FEMALE)</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>1</option>
-                    <option>2</option>
-                  </select>
-                  <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-                
         </form>
         </div>
       <br>
 
-    <!-- form to delete cat-->
+    <!-- form to delete location-->
     <div class="mail">
       <form>
           <div class="form-group">
-          <h1>Delete Cat by Id</h1>
-          <label for="exampleFormControlInput1">Enter Cat Id</label>
+          <h1>Delete Location by Id</h1>
+          <label for="exampleFormControlInput1">Enter Location Id</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
           <br>
           <button type="submit" class="btn btn-primary">Submit</button>
@@ -135,53 +110,29 @@
   </div>
   <br>
 
-  <!-- Form to update cat -->
+  <!-- Form to update location details -->
 
   <div class="mail">
     <form>
-        
+            
         <div class="form-group">
-         <h1>Update Existing Cat</h1>
+         <h1>Update Location Details</h1>
           <label for="exampleFormControlInput1">Enter a New Id</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234">
         </div>
           
         <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hila">
+          <label for="exampleFormControlInput1">Enter Location Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Highland Park Humane Society">
         </div>
           
         <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Age (in years)</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3">
+          <label for="exampleFormControlInput1">Enter Location Address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1111 Marc Street, Saint Paul, MN 55105">
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
-          
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Enter Cat Breed</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="orange tabby">
-        </div>
-          
-          <div class="form-group">
-            <label for="inputState">Is this cat up to date on shots? (1 for YES, 2 for NO)</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>1</option>
-              <option>2</option>
-            </select>
-          </div>
-          
-          
-            <div class="form-group">
-              <label for="inputState">Enter Cat Gender (1 for MALE, 2 for FEMALE)</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>1</option>
-                <option>2</option>
-              </select>
-              <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-            
+        
     </form>
     </div>
 
